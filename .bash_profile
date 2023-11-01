@@ -1,7 +1,8 @@
-vrc=$doc/.vimrc
-brc=$doc/.profile
-prc=$doc/.bash_profile
-sshcfg=$doc/.ssh/config
+doc=~/Documents
+vrc="$doc/.vimrc"
+brc="$doc/.profile"
+prc="$doc/bash_profile"
+sshcfg="$doc/.ssh/config"
 
 params() {
    if [ -f $sshcfg ]; then
