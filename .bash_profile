@@ -25,7 +25,7 @@ params() {
          echo '
            sshConfigHost
         '
-  else
+   else
          echo '
            <user>@h<hostname> <key.pub>
          '
